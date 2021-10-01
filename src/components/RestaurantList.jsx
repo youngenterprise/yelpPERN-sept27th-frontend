@@ -59,10 +59,13 @@ const RestaurantList = (props) => {
                                 <td><button onClick={()=> handleUpdate(restaurant.id)} className="btn btn-warning">Update</button></td>
                                 <td><button onClick={()=> handleDelete(restaurant.id)} className="btn btn-danger">Delete</button></td>
                             </tr>
-                        )
+                        );
                     })}
                 </tbody>
             </table>
         </div>
     )
 }
+
+export default RestaurantList
+
